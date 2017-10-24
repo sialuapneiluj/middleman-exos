@@ -2,14 +2,59 @@
 title: Le Wagon - Middleman
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+  <div class="banner-content">
+    <h1>Le Wagon Berlin</h1>
+    <p>Learn to code with us in Berlin</p>
+    <a class="btn btn-primary btn-lg">Start now</a>
   </div>
 </div>
+
+<!-- Your cards code -->
+    <div class="wrapper-grey">  
+        <div class="container text-center"> 
+            <h2>Your next Trip</h2>
+            <div class="row"> 
+                <!-- card --> 
+                  <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('./images/card-paris.jpg');">
+                          <div class="card-category">Seb's</div>
+                          <div class="card-description">
+                            <h2>Paris</h2>
+                            <p>Small but comfortable flat</p>
+                          </div>
+                          <img class="card-user" src="./images/seb.jpg">
+                          <a class="card-link" href="#" ></a>
+                      </div>
+                  </div>
+                <!-- card --> 
+                  <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('./images/card-brussels.jpeg');">
+                          <div class="card-category">Anne's</div>
+                          <div class="card-description">
+                            <h2>Brussels</h2>
+                            <p>Small but comfortable flat</p>
+                          </div>
+                          <img class="card-user" src="./images/anne.jpg">
+                          <a class="card-link" href="#" ></a>
+                      </div> <!-- card -->
+                  </div> <!-- col -->
+                 <!-- card --> 
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('./images/card-london.jpeg');">
+                          <div class="card-category">Romain's</div>
+                          <div class="card-description">
+                            <h2>London</h2>
+                            <p>Small but comfortable flat</p>
+                          </div>
+                          <img class="card-user" src="./images/romain.jpeg">
+                          <a class="card-link" href="#" ></a>
+                      </div> <!-- card -->
+                  </div> <!-- col -->
+
+              </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- wrapper -->
+    </div>
+
+	
